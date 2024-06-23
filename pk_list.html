@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shop quần áo</title>
+    <link rel="stylesheet" href="style/style1.css">
+    <link rel="stylesheet" href="style/style_chatbox.css">    
+    <link rel="stylesheet" href="style/style_for_product_list.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="flosun/assets/css/vendor/linearicons.min.css">
+<link rel="stylesheet" href="flosun/assets/css/vendor/font.awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header id="header">
+    <div class="icons" >
+        <div class="bx bx-menu" id="me" onclick="addMenuClickEvent();"></div>
+    </div>
+        <a href="#" class="logo">
+            Loi  <span class="st"> Store</span>
+        </a>
+        <ul class="navbar">
+            <li><a href="Homepage.html" class="nav-item"  onclick="move(this)">Trang chủ</a></li>
+            <li><a href="shop.html" class="nav-item active" onclick="move(this)">Shop</a></li>
+            <li><a href="Blog.html" class="nav-item " onclick="move(this)">Bài đăng</a></li>
+            <li><a href="About_us.html" class="nav-item " onclick="move(this)">Thông tin</a></li>
+            <li><a href="Contact-us.html" class="nav-item" onclick="move(this)">Liên lạc</a></li>
+        </ul>
+        <div class="header-icons">
+            <a href="cart.html" ><i class='bx bx-cart'></i></a>
+            <a href="login.html"><i class='bx bxs-user'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+  
+    <div class="breadcrumbs-area position-relative" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="breadcrumb-content position-relative section-content" id="re">
+                        <h3 class="title-3">Quần áo</h3>
+                        <ul>
+                            <li><a href="Homepage.html">Trang chủ</a></li>
+                            <li>Quần áo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="shop-main-area">
+        <div class="container container-default custom-area">
+            <div class="row flex-row-reverse">
+                <div class="col-lg-9 col-12 col-custom widget-mt">
+                    <div class="shop_toolbar_wrapper mb-30">
+                        <div class="shop_toolbar_btn">
+                            <button data-role="grid_list" type="button" class="active btn-list" title="List"><i class="fa fa-th-list"></i></button>
+                            <button data-role="grid_3" type="button" class="btn-grid-3" onclick="window.location.href = 'pk.html'"; title="Grid"><i class="fa fa-th"></i></button>
+                        </div>
+                    </div>
+                    <div class="row  shop_wrapper grid_list">
+                        <div class="col-12 col-custom product-area" data-price1="3800000">
+                            <div class="product-item">
+                                <div class="single-product position-relative mr-0 ml-0" >
+                                    <div class="product-image" class="im">
+                                        <a class="d-block" href="#">
+                                            <img src="img/pk1.jpg" alt="" class="product-image-1 w-100" style="height:270px"> 
+                                            <img src="img/pk1.1.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        </a>
+                                        <span class="onsale">Sale!</span>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            <a href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                            </a>
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="product-content-listview">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Thời Trang Kính Chống Nắng Màu Cổ Điển UV400</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">3.800.000 đ</span>
+                                            <span class="old-price"><del>3.900.000 đ</del></span>
+                                        </div>
+                                        <p class="desc-content">Kính chống nắng màu cổ điển UV400 là sự kết hợp hoàn hảo giữa phong cách và bảo vệ mắt. Với khả năng chặn tia UV có hại từ ánh nắng mặt trời và kiểu dáng cổ điển, sản phẩm này không chỉ mang lại sự thoải mái mà còn tạo điểm nhấn thời trang cho bất kỳ trang phục nào.</p>
+                                        <div class="button-listview">
+                                            <a href="cart.html"  onclick="addToCart('Kính Chống Nắng Màu Cổ Điển UV400', 3800000, 'img/pk1.1.jpg',1)" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Thêm vào giỏ hàng</span> </a>
+                                            <a class="list-icon" href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="top" title="Wishlist"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-custom product-area" data-price1="1250000">
+                            <div class="product-item">
+                                <div class="single-product position-relative mr-0 ml-0" >
+                                    <div class="product-image" class="im">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/pk2.jpg" alt="" class="product-image-1 w-100">
+                                            <img src="img/pk2.2.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            <a href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                            </a>
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content-listview">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Kính phi công kim loại GUESS</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">1.250.000 đ</span>
+                                            <span class="old-price"><del>1.400.000 đ</del></span>
+                                        </div>
+                                        <p class="desc-content">Kính phi công kim loại GUESS là biểu tượng của phong cách và đẳng cấp. Với thiết kế bền bỉ từ kim loại chất lượng cao và tròng kính chống nắng UV, sản phẩm này không chỉ mang lại sự bảo vệ cho mắt mà còn tạo điểm nhấn thời trang hoàn hảo cho mọi trang phục. </p>
+                                        <div class="button-listview">
+                                            <a href="cart.html" onclick="addToCart('Kính phi công kim loại GUESS', 1250000, 'img/pk2.2.jpg',1)" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Thêm vào giỏ hàng</span> </a>
+                                          
+                                            <a class="list-icon" href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="top" title="Wishlist"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-custom product-area" id="test" data-price1="2000000">
+                            <div class="product-item">
+                                <div class="single-product position-relative mr-0 ml-0" >
+                                    <div class="product-image" class="im">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/pk3.jpg" alt="" class="product-image-1 w-100">
+                                            <img src="img/pk3.3.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        </a>
+                                        <span class="onsale">Sale!</span>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            <a href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                            </a>
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content-listview">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Kính râm mắt mèo lấy cảm hứng từ cổ điển GUESS</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">2.000.000 đ</span>
+                                            <span class="old-price"><del>2.170.000 đ</del></span>
+                                        </div>
+                                        <p class="desc-content">Với kiểu dáng mắt mèo tinh tế, sản phẩm này thể hiện sự sang trọng và nữ tính. Tạo điểm nhấn với các đặc điểm cổ điển của GUESS, như các đường cong mềm mại và chi tiết hoa văn, kính râm này không chỉ là phụ kiện thời trang mà còn là biểu tượng của sự tự tin và cá tính.</p>
+                                        <div class="button-listview">
+                                            <a href="cart.html" onclick="addToCart('Kính râm mắt mèo lấy cổ điển GUESS', 2000000, 'img/pk3.3.jpg',1)" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Thêm vào giỏ hàng</span> </a>
+                                            <a class="list-icon" href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="top" title="Compare"></i>
+                                            </a>
+                                            <a class="list-icon" href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="top" title="Wishlist"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-custom product-area" data-price1="5300000">
+                            <div class="product-item">
+                                <div class="single-product position-relative mr-0 ml-0">
+                                    <div class="product-image" class="im">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/pk4.jpg" alt="" class="product-image-1 w-100">
+                                            <img src="img/pk4.4.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            <a href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                            </a>
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content-listview">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Mũ Rơm UV UPF50 Du Lịch có thể gập lại vành mũ UV Mùa Hè</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">5.300.000 đ</span>
+                                            <span class="old-price"><del>5.750.000 đ</del></span>
+                                        </div>
+                                        <p class="desc-content">Mũ được thiết kế với chất liệu mềm mại và nhẹ nhàng, cho phép bạn dễ dàng gập lại vành mũ khi không sử dụng để thuận tiện mang theo trong các chuyến du lịch và đi chơi. Kiểu dáng mũ rơm cổ điển kết hợp với viền rộng giúp che phủ khuôn mặt hiệu quả.</p>
+                                        <div class="button-listview">
+                                            <a href="cart.html" onclick="addToCart('Mũ Rơm UV có thể gập vành mũ UV Mùa Hè', 5300000, 'img/pk4.4.jpg',1)" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Thêm vào giỏ hàng</span> </a>
+                                           
+                                            <a class="list-icon" href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="top" title="Wishlist"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-custom product-area" data-price1="3900000">
+                            <div class="product-item">
+                                <div class="single-product position-relative mr-0 ml-0">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/pk5.jpg" alt="" class="product-image-1 w-100">
+                                            <img src="img/pk5.5.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            <a href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                            </a>
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content-listview">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Mũ chống nắng cho nữ mùa hè rộng vành UV UPF 50+</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                            <i class="bx bx-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">3.900.000 đ</span>
+                                            <span class="old-price"><del>4.100.000 đ</del></span>
+                                        </div>
+                                        <p class="desc-content"> Mũ được thiết kế với vành rộng, bao phủ khuôn mặt và cổ của bạn, giúp che chắn ánh nắng mặt trời một cách hiệu quả. Với khả năng chống tia UV UPF 50+, sản phẩm bảo vệ da khỏi tác động của tia UV có hại, giúp ngăn chặn sự hình thành của vết nám, đen sạm, và nguy cơ ung thư da.</p>
+                                        <div class="button-listview">
+                                            <a href="cart.html" onclick="addToCart('Mũ chống nắng mùa hè rộng vành UPF 50+', 3900000, 'img/pk5.5.jpg',1)" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Thêm vào giỏ hàng</span> </a>
+                                            
+                                            <a class="list-icon" href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="top" title="Wishlist"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-custom product-area" data-price1="2200000">
+                            <div class="product-item">
+                                <div class="single-product position-relative mr-0 ml-0">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/pk6.jpg" alt="" class="product-image-1 w-100">
+                                            <img src="img/pk6.6.jpg" alt="" class="product-image-2 position-absolute w-100">
+                                        </a>
+                                        <span class="onsale">Sale!</span>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            <a href="compare.html" title="Compare">
+                                                <i class="lnr lnr-sync" data-toggle="tooltip" data-placement="left" title="Compare"></i>
+                                            </a>
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="product-content-listview">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Mũ chống nắng nữ Nicole Miller New York
+                                            </a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">2.200.000 đ</span>
+                                            <span class="old-price"><del>2.550.000 đ</del></span>
+                                        </div>
+                                        <p class="desc-content">Với thiết kế sang trọng và hiện đại, mũ được làm từ chất liệu nhẹ và thoáng khí, giúp bạn cảm thấy thoải mái và mát mẻ trong những ngày nắng nóng.</p>
+                                        <div class="button-listview">
+                                            <a href="cart.html" onclick="addToCart('Mũ chống nắng nữ Nicole Miller New York', 2200000, 'img/pk6.6.jpg',1)" class="btn product-cart button-icon flosun-button dark-btn" data-toggle="tooltip" data-placement="top" title="Add to Cart"> <span>Thêm vào giỏ hàng</span> </a>
+                                          
+                                            <a class="list-icon" href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="top" title="Wishlist"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                </div>
+                <div class="col-lg-3 col-12 col-custom">
+                    <aside class="sidebar_widget widget-mt">
+                        <div class="icon-close" >
+                            <div class="bx bx-x" id="menu-close"></div>
+                        </div>
+                        <div class="widget_inner">
+                            <div class="widget-list widget-mb-1">
+                                <h3 class="widget-title">Tìm kiếm sản phẩm</h3>
+                                <div class="search-box">
+                                    <div class="input-group">
+                                        <input type="text" id="searchInput" class="form-control" placeholder="Nhập từ khóa" aria-label="Nhập từ khóa">
+                                        <div class="input-group-append">
+                                            <button class="btn btn-outline-secondary" type="button" id="searchButton">
+                                                <i class="fa fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="widget-list widget-mb-1">
+                                <h3 class="widget-title">Thể loại quần áo</h3>
+                                <nav>
+                                    <ul class="mobile-menu p-0 m-0">
+                                        <li class="menu-item-has-children"><a href="#">Quần áo nam</a>
+                                            <ul class="dropdown">
+                                                <li><a href="shop.html">Áo sơ mi</a></li>
+                                                <li><a href="khoac_list.html">Áo khoác</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="#">Quần áo nữ</a>
+                                            <ul class="dropdown">
+                                                <li><a href="nu1_list.html">Áo blouse</a></li>
+                                                <li><a href="n1_list.html">Váy đầm nữ</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="#">Quần áo cho trẻ em</a>
+                                            <ul class="dropdown">
+                                                <li><a href="bt_list.html">Áo bé trai</a></li>
+                                                <li><a href="bg_list.html">Áo bé gái</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item-has-children"><a href="#">Phụ kiện thời trang hè</a>
+                                            <ul class="dropdown">
+                                                <li><a href="#">Phụ kiện</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="widget-list widget-mb-1">
+                                <h3 class="widget-title">Lọc sản phẩm theo giá
+                                </h3>
+                                <input type="range" min="0" max="10000000" value="500000" id="slider">
+                                <p>Giá tiền: <span id="filterValue">0 VNĐ</span></p>
+                            </div>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <footer id="footer" class="bg-light text center text-lg-start mt-5 foot">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-12 col-12 mb-md-0" id="center">
+                <div class="s1">Loi  <span class="st"> Store</span></div>
+                <h5 class="text-uppercase mt-3">Công ty </h5>
+                <ul class="list-unsyled mb-0">
+                    <li>
+                        <a href="#" class="text-dark">Giới thiệu về LoiStore</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Tin thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-6 col-12 mb-md-0 mb-sm-0" id="foot-1" >
+                <h5 class="text-uppercase">Chính sách ưu đãi</h5>
+                <ul class="list-unsyled mb-0 ty">
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách khách hàng thân thiết</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách đổi trả</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách bảo hành</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Hướng dẫn mua hàng online</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-6 col-12 mb-md-0 mb-sm-0" id="foot-3">
+                <h5 class="text-uppercase">Thông tin cửa hàng</h5>
+                <ul class="list-unsyled mb-0 ty">
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Cửa hàng kinh doanh quần áo thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-edit-location' style="color:#E72463;"></i>Địa chỉ: 75 Trần Cao Vân, Quận Thanh Khê</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-phone' style="color:#E72463;"></i>Liên lạc :0932347438</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-12 col-12 mb-md-0" id="foot-2">
+                <h5 class="text-uppercase">Liên hệ với chúng tôi</h5>
+                <span class="icon">
+                  <i class='bx bxl-facebook-circle' style="color:blue"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-instagram-alt' style="color:rgb(249, 186, 84)"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-twitter' style="color:rgb(0, 119, 255)"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-youtube' style="color:red"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="custom-footer-margin">
+        <div class="pt-3 container text-center" id="foot">
+            <h6>&copy; <span style="color:#E72463">Coded By Van Loi</span> | All Rights
+             Reserved </h6>
+        </div>
+    </div>
+</footer>
+<div class="chatbox" id="chatbox">
+    <div class="chatbox-header"> <span class="chat"><i class='bx bxs-circle'></i><img src="img/chatbox.png" alt=""></span>
+        Trợ lý bán hàng</div>
+    <div class="chatbox-body">
+        <div class="chatbox-messages" id="chatbox-messages"></div>
+    </div>
+    <div class="chatbox-footer">
+        <input type="text" id="user-input" placeholder="Nhập câu hỏi của bạn...">
+        <button onclick="sendMessage()"><i class='bx bx-send' ></i></button>
+    </div>
+</div>
+<div class="chatbox-icon" id="chatbox-icon" onclick="toggleChatbox()">💬</div>
+    <script src="js/chatbox.js"></script>
+    <script src="js/java.js"></script>
+    <script src="js/java_grid_product.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shop quần áo</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="flosun/assets/css/vendor/linearicons.min.css">
+<link rel="stylesheet" href="flosun/assets/css/vendor/font.awesome.min.css">
+<link rel="stylesheet" href="flosun/assets/css/plugins/swiper-bundle.min.css">
+<link rel="stylesheet" href="flosun/assets/css/style.css">
+<link rel="stylesheet" href="style/style_chatbox.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header id="header">
+        <a href="#" class="logo">
+            Loi  <span class="st"> Store</span>
+        </a>
+        <ul class="navbar">
+            <li><a href="Homepage.html" class="nav-item"  onclick="move(this)">Trang chủ</a></li>
+            <li><a href="shop.html" class="nav-item active" onclick="move(this)">Shop</a></li>
+            <li><a href="Blog.html" class="nav-item " onclick="move(this)">Bài đăng</a></li>
+            <li><a href="About_us.html" class="nav-item " onclick="move(this)">Thông tin</a></li>
+            <li><a href="Contact-us.html" class="nav-item" onclick="move(this)">Liên lạc</a></li>
+        </ul>
+        <div class="header-icons">
+            <a href="cart.html" ><i class='bx bx-cart'></i></a>
+            <a href="login.html"><i class='bx bxs-user'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+  
+    <div class="breadcrumbs-area position-relative" >
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="breadcrumb-content position-relative section-content" id="re">
+                        <h3 class="title-3">Quần áo</h3>
+                        <ul>
+                            <li><a href="Homepage.html">Trang chủ</a></li>
+                            <li id="t">Quần áo</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="single-product-main-area" id="product-details1">
+        <div class="container container-default custom-area">
+            <div class="row">
+                <div class="col-lg-5 offset-lg-0 col-md-8 offset-md-2 col-custom">
+                    <div class="product-details-img">
+                        <div class="single-product-img swiper-container gallery-top popup-gallery">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a class="w-100" href="img/6.jpeg">
+                                        <img class="w-100" src="img/6.jpeg" alt="Product">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="w-100" href="img/ct7.jpg">
+                                        <img class="w-100" src="img/ct7.jpg" alt="Product">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="w-100" href="img/ct6.6.jpg">
+                                        <img class="w-100" src="img/ct6.6.jpg" alt="Product">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="w-100" href="img/ct6.6.6.jpg">
+                                        <img class="w-100" src="img/ct6.6.6.jpg" alt="Product">
+                                    </a>
+                                </div>
+                             </div>
+                        </div>
+                        <div class="single-product-thumb swiper-container gallery-thumbs">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="img/6.jpeg" alt="Product">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/ct7.jpg" alt="Product">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/ct6.6.jpg" alt="Product">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="img/ct6.6.6.jpg" alt="Product">
+                                </div>
+                            </div>
+                            <div class="swiper-button-next swiper-button-white"><i class="lnr lnr-arrow-right"></i></div>
+                            <div class="swiper-button-prev swiper-button-white"><i class="lnr lnr-arrow-left"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-custom">
+                    <div class="product-summery position-relative">
+                        <div class="product-head mb-3">
+                            <h2 class="product-title">Áo sơ mi len mỏng thoáng mát</h2>
+                        </div>
+                        <div class="price-box mb-2">
+                            <span class="regular-price ">1.000.000 đ</span>
+                                            <span class="old-price"><del>1.450.000 đ</del></span>
+                        </div>
+                        <div class="product-rating mb-3" id="rate">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p class="desc-content mb-5">Với chất liệu len mỏng, áo sơ mi này thường rất nhẹ nhàng và thoải mái khi mặc. Chúng cũng có thể có thiết kế thông thoáng, giúp cải thiện sự lưu thông không khí và giảm bớt cảm giác nóng bức.</p>
+                        <div class="quantity-with_btn mb-5">
+                            <div class="quantity">
+                                <div class="cart-plus-minus">
+                                    <input class="cart-plus-minus-box" value="0" type="text" id="number" >
+                                    <div class="dec qtybutton">-</div>
+                                    <div class="inc qtybutton">+</div>
+                                </div>
+                            </div>
+                            <div class="add-to_cart">
+                                <a class="btn product-cart button-icon flosun-button dark-btn"  onclick="addToCart('Áo sơ mi len mỏng thoáng mát', 1000000, 'img/6.jpeg',getInputValueAsInteger('number'))"   href="cart.html">Thêm vào giỏ hàng</a>
+                            </div>
+                        </div>
+                        <div class="social-share mb-4">
+                            <span>Share :</span>
+                            <a href="#"><i class="fa fa-facebook-square facebook-color"></i></a>
+                            <a href="#"><i class="fa fa-twitter-square twitter-color"></i></a>
+                            <a href="#"><i class="fa fa-linkedin-square linkedin-color"></i></a>
+                            <a href="#"><i class="fa fa-pinterest-square pinterest-color"></i></a>
+                        </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product-area mt-text-3" id="product-details2">
+        <div class="container custom-area-2 overflow-hidden">
+            <div class="row">
+                <div class="col-12 col-custom">
+                    <div class="section-title text-center mb-30">
+                        <span class="section-title-1">Các sản phẩm tương tự</span>
+                    </div>
+                </div>
+            </div>
+            <div class="row product-row">
+                <div class="col-12 col-custom">
+                    <div class="product-slider swiper-container anime-element-multi">
+                        <div class="swiper-wrapper">
+                            <div class="single-item swiper-slide">
+                                <div class="single-product position-relative mb-30">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details_nu2.html">
+                                            <img src="img/6.jpeg" alt="" class="product-image-1 w-100">
+                                        </a>
+                                        <span class="onsale">Sale!</span>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                           
+                                            <a href="#" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details_nu2.html">Áo sơ mi len mỏng thoáng mát </a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star-o"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">1.000.000 đ</span>
+                                            <span class="old-price"><del>1.450.000 đ</del></span>
+                                        </div>
+                                        <a href="cart.html" class="btn product-cart">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item swiper-slide">
+                                <div class="single-product position-relative mb-30">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details_nu3.html">
+                                            <img src="img/bl1.1.jpg" alt="" class="product-image-1 w-100" style="height:270px">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            
+                                            <a href="#" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details_nu3.html">Áo sơ mi ngắn tay cổ V</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">500.000 đ</span>
+                                            <span class="old-price"><del>600.000 đ</del></span>
+                                        </div>
+                                        <a href="cart.html" class="btn product-cart">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item swiper-slide">
+                                <div class="single-product position-relative mb-30">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/bl2.2.jpg" alt="" class="product-image-1 w-100" style="height:270px">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                           
+                                            <a href="#" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Áo tay xòe đỏ </a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">300.000 đ</span>
+                                            <span class="old-price"><del>350.000 đ</del></span>
+                                        </div>
+                                        <a href="cart.html" class="btn product-cart">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item swiper-slide">
+                                <div class="single-product position-relative mb-30">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/bl3.3.jpg" alt="" class="product-image-1 w-100" style="height:270px">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            
+                                            <a href="#" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Áo top cộc tay cho nữ</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">800.000 đ</span>
+                                            <span class="old-price"><del>1.000.000 đ</del></span>
+                                        </div>
+                                        <a href="cart.html" class="btn product-cart">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item swiper-slide">
+                                <div class="single-product position-relative mb-30">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/bl4.4.jpg" alt="" class="product-image-1 w-100" style="height:270px">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                            
+                                            <a href="#" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Áo sơ mi sọc xen kẻ độc đáo</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">400.000 đ</span>
+                                            <span class="old-price"><del>550.000 đ</del></span>
+                                        </div>
+                                        <a href="cart.html" class="btn product-cart">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-item swiper-slide">
+                                <div class="single-product position-relative mb-30">
+                                    <div class="product-image">
+                                        <a class="d-block" href="product-details.html">
+                                            <img src="img/bl5.5.jpg" alt="" class="product-image-1 w-100" style="height:270px">
+                                        </a>
+                                        <div class="add-action d-flex flex-column position-absolute">
+                                           
+                                            <a href="wishlist.html" title="Add To Wishlist">
+                                                <i class="lnr lnr-heart" data-toggle="tooltip" data-placement="left" title="Wishlist"></i>
+                                            </a>
+                                            <a href="#exampleModalCenter" title="Quick View" data-bs-toggle="modal" data-bs-target="#exampleModalCenter">
+                                                <i class="lnr lnr-eye" data-toggle="tooltip" data-placement="left" title="Quick View"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-content">
+                                        <div class="product-title">
+                                            <h4 class="title-2"> <a href="product-details.html">Áo len cổ tròn</a></h4>
+                                        </div>
+                                        <div class="product-rating">
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bxs-star"></i>
+                                            <i class="bx bx-star"></i>
+                                            <i class="bx bx-star"></i>
+                                            <i class="bx bx-star"></i>
+                                        </div>
+                                        <div class="price-box">
+                                            <span class="regular-price ">350.000 đ</span>
+                                            <span class="old-price"><del>450.000 đ</del></span>
+                                        </div>
+                                        <a href="cart.html" class="btn product-cart">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination default-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <footer id="footer" class="bg-light text center text-lg-start mt-5 foot">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-12 col-12 mb-md-0" id="center">
+                <div class="s1">Loi  <span class="st"> Store</span></div>
+                <h5 class="text-uppercase mt-3">Công ty </h5>
+                <ul class="list-unsyled mb-0">
+                    <li>
+                        <a href="#" class="text-dark">Giới thiệu về LoiStore</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Tin thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-6 col-12 mb-md-0 mb-sm-0" id="foot-1" >
+                <h5 class="text-uppercase">Chính sách ưu đãi</h5>
+                <ul class="list-unsyled mb-0 ty">
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách khách hàng thân thiết</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách đổi trả</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách bảo hành</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Hướng dẫn mua hàng online</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-6 col-12 mb-md-0 mb-sm-0" id="foot-3">
+                <h5 class="text-uppercase">Thông tin cửa hàng</h5>
+                <ul class="list-unsyled mb-0 ty">
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Cửa hàng kinh doanh quần áo thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-edit-location' style="color:#E72463;"></i>Địa chỉ: 75 Trần Cao Vân, Quận Thanh Khê</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-phone' style="color:#E72463;"></i>Liên lạc :0932347438</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-12 col-12 mb-md-0" id="foot-2">
+                <h5 class="text-uppercase">Liên hệ với chúng tôi</h5>
+                <span class="icon">
+                  <i class='bx bxl-facebook-circle' style="color:blue"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-instagram-alt' style="color:rgb(249, 186, 84)"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-twitter' style="color:rgb(0, 119, 255)"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-youtube' style="color:red"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="custom-footer-margin">
+        <div class="pt-3 container text-center" id="foot">
+            <h6>&copy; <span style="color:#E72463">Coded By Van Loi</span> | All Rights
+             Reserved </h6>
+        </div>
+    </div>
+</footer>
+<div class="chatbox" id="chatbox">
+    <div class="chatbox-header"> <span class="chat"><i class='bx bxs-circle'></i><img src="img/chatbox.png" alt=""></span>
+        Trợ lý bán hàng</div>
+    <div class="chatbox-body">
+        <div class="chatbox-messages" id="chatbox-messages"></div>
+    </div>
+    <div class="chatbox-footer">
+        <input type="text" id="user-input" placeholder="Nhập câu hỏi của bạn...">
+        <button onclick="sendMessage()"><i class='bx bx-send' ></i></button>
+    </div>
+</div>
+<div class="chatbox-icon" id="chatbox-icon" onclick="toggleChatbox()">💬</div>
+<script src="js/chatbox.js"></script>
+<script src="js/java.js"></script>
+ <script src="flosun/assets/js/vendor/jquery-3.6.0.min.js"></script>   
+ <script src="flosun/assets/js/plugins/swiper-bundle.min.js"></script>
+<script src="flosun/assets/js/main.js"></script>
+<script src="js/script.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Shop quần áo</title>
+    <link rel="stylesheet" href="style/style1.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Pacifico&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="flosun/assets/css/vendor/linearicons.min.css">
+<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
+<link rel="stylesheet" href="assets/css/vendor/font.awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header id="header">
+        <a href="#" class="logo">
+            Loi  <span class="st"> Store</span>
+        </a>
+        <ul class="navbar">
+            <li><a href="Homepage.html" class="nav-item"  onclick="move(this)">Trang chủ</a></li>
+            <li><a href="shop.html" class="nav-item" onclick="move(this)">Shop</a></li>
+            <li><a href="Blog.html" class="nav-item" onclick="move(this)">Bài đăng</a></li>
+            <li><a href="About_us.html" class="nav-item active" onclick="move(this)">Thông tin</a></li>
+            <li><a href="Contact-us.html" class="nav-item" onclick="move(this)">Liên lạc</a></li>
+        </ul>
+        <div class="header-icons">
+            <a href="cart.html" ><i class='bx bx-cart'></i></a>
+            <a href="login.html"><i class='bx bxs-user'></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+    <div class="breadcrumbs-area position-relative">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="breadcrumb-content position-relative section-content" >
+                        <h3 class="title-3">Thông tin về chúng tôi</h3>
+                        <ul>
+                            <li><a href="Homepage.html">Trang chủ</a></li>
+                            <li>Thông tin về chúng tôi</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about-area mt-no-text">
+        <div class="container custom-area">
+            <div class="row mb-30 align-items-center ">
+                <div class="col-md-6 col-custom ui">
+                    <div class="collection-content">
+                        <div class="section-title text-left">
+                            <span class="section-title-1">Quần áo dành cho</span>
+                            <h3 class="section-title-3 pb-0">thời trang hè</h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>Vải cotton, linen, và chiffon là những chất liệu được ưa chuộng vì khả năng thấm hút mồ hôi và thoáng khí.</p>
+                        </div>
+                        <div class="carousel-caption fade-in">
+                            
+                            <button type="button" class="btn btn-default" onclick="window.location.href = 'nu2.html'" id="bt">Bộ sưu tập</button>
+                          </div>                     
+                    </div>
+                </div>
+                <div class="col-md-6 col-custom iu">
+                    <div class="single-banner hover-style">
+                        <div class="banner-img">
+                            <a href="#">
+                                <img src="img/ab1.jpeg" alt="About Image" >
+                                <div class="overlay-1"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center ">
+                <div class="col-md-6 col-custom order-2 order-md-1 mt-6" >
+                    <div class="single-banner hover-style">
+                        <div class="banner-img">
+                            <a href="#">
+                                <img src="img/ab2.jpeg" alt="About Image">
+                                <div class="overlay-1"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-custom order-1 order-md-2">
+                    <div class="collection-content">
+                        <div class="section-title text-left">
+                            <span class="section-title-1">Các phụ kiện đi kèm</span>
+                            <h3 class="section-title-3 pb-0">thời trang hè</h3>
+                        </div>
+                        <div class="desc-content">
+                            <p>Kính râm, mũ rộng vành, và túi xách nhỏ gọn là những phụ kiện không thể thiếu, vừa giúp bảo vệ khỏi ánh nắng mặt trời, vừa tạo điểm nhấn thời trang cho trang phục.</p>
+                        </div>
+                        <div class="carousel-caption fade-in" id="car">
+                            
+                            <button type="button" class="btn btn-default" onclick="window.location.href = 'pk.html'" id="bt1">Bộ sưu tập</button>
+                          </div>                      
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="our-history-area gray-bg pt-5 mt-text-3">
+        <div class="our-history-area">
+            <div class="container custom-area">
+                <div class="row">
+                    <div class="col-12 col-custom">
+                        <div class="section-title text-center mb-30">
+                            <span class="section-title-1">Một vài câu chuyện về chúng tôi</span>
+                            <h2 class="section-title-large" style="white-space: nowrap;">Lịch sử hình thành</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 ms-auto me-auto">
+                        <div class="history-area-content text-center border-0">
+                            <p><strong class="st">Khởi Đầu Từ Niềm Đam Mê.</strong></p>
+                            <p>Vào năm 2010, cửa hàng quần áo của chúng tôi được thành lập từ niềm đam mê cháy bỏng với thời trang và mong muốn mang đến cho khách hàng những sản phẩm chất lượng, phong cách và độc đáo. Người sáng lập của chúng tôi, Huỳnh Văn Lợi, đã bắt đầu hành trình này từ một ý tưởng đơn giản: tạo ra những bộ quần áo không chỉ đẹp mà còn phản ánh được cá tính và phong cách riêng của mỗi người.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="our-history-area gray-bg pt-5 mt-text-3">
+        <div class="our-history-area">
+            <div class="container custom-area">
+                <div class="row">
+                    <div class="col-12 col-custom">
+                        <div class="section-title text-center mb-30">
+                            <span class="section-title-1">Giới thiệu về Lợi Store</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-9 ms-auto me-auto">
+                        <div class="history-area-content text-center border-0">
+                            <p><strong class="st" id="tp">"LoiStore đang tạo ra những bộ trang phục sản xuất trong nước hoàn toàn có thể sánh ngang với các thương hiệu thời trang nam đến từ nước ngoài về kiểu dáng, chất lượng lẫn phong cách thời trang.” - CEO Loi.</strong></p>
+                            <p>Như ý nghĩa của tên gọi, trang phục của LoiStore hướng đến việc trở thành thói quen, lựa chọn hàng ngày cho nam giới cũng như nữ giới trong mọi tình huống. Bởi LoiStore hiểu rằng, sự tự tin về phong cách ăn mặc sẽ làm nền tảng, tạo động lực cổ vũ mỗi người mạnh dạn theo đuổi những điều mình mong muốn. Trong đó, trang phục nam phải mang vẻ đẹp lịch lãm, hợp mốt và tạo sự thoải mái, quan trọng nhất là mang đến cảm giác “được là chính mình” cho người mặc
+                                 và trang phục nữ đoan trang nữ tính nhưng cũng không kém phần thùy mị, nết na, và quan trọng nhất là theo xu hướng thời trang hiện đại.
+
+                                Thương hiệu thời trang LoiStore thuyết phục khách hàng qua từng kiểu dáng trang phục thiết kế độc quyền, sự sắc sảo trong mỗi đường nét cắt may, sử dụng chất liệu vải cao cấp và luôn hòa điệu cùng xu hướng quốc tế. Đây là con đường LoiStore theo đuổi và hướng đến sự phát triển bền vững.
+                                
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="image_about">
+
+    </div>
+   
+   <footer id="footer" class="bg-light text center text-lg-start mt-5 foot">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-12 col-12 mb-md-0" id="center">
+                <div class="s1">Loi  <span class="st"> Store</span></div>
+                <h5 class="text-uppercase mt-3">Công ty </h5>
+                <ul class="list-unsyled mb-0">
+                    <li>
+                        <a href="#" class="text-dark">Giới thiệu về LoiStore</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Tuyển dụng</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Tin thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark">Liên hệ</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-6 col-12 mb-md-0 mb-sm-0" id="foot-1" >
+                <h5 class="text-uppercase">Chính sách ưu đãi</h5>
+                <ul class="list-unsyled mb-0 ty">
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách khách hàng thân thiết</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách đổi trả</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Chính sách bảo hành</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Hướng dẫn mua hàng online</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-6 col-12 mb-md-0 mb-sm-0" id="foot-3">
+                <h5 class="text-uppercase">Thông tin cửa hàng</h5>
+                <ul class="list-unsyled mb-0 ty">
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-right-arrow' style="scale:calc(0.5);color:rgb(222, 222, 4)"></i>Cửa hàng kinh doanh quần áo thời trang</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-edit-location' style="color:#E72463;"></i>Địa chỉ: 75 Trần Cao Vân, Quận Thanh Khê</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-dark"><i class='bx bxs-phone' style="color:#E72463;"></i>Liên lạc :0932347438</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 col-sm-12 col-12 mb-md-0" id="foot-2">
+                <h5 class="text-uppercase">Liên hệ với chúng tôi</h5>
+                <span class="icon">
+                  <i class='bx bxl-facebook-circle' style="color:blue"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-instagram-alt' style="color:rgb(249, 186, 84)"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-twitter' style="color:rgb(0, 119, 255)"></i>
+                </span>
+                <span class="icon">
+                  <i class='bx bxl-youtube' style="color:red"></i>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="custom-footer-margin">
+        <div class="pt-3 container text-center" id="foot">
+            <h6>&copy; <span style="color:#E72463">Coded By Van Loi</span> | All Rights
+             Reserved </h6>
+        </div>
+    </div>
+</footer>
+
+    <script src="js/java.js"></script>
+</body>
+</html>
